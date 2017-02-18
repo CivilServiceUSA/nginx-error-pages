@@ -3,7 +3,7 @@
 Civil Services Nginx Error Pages
 ==
 
-[![Build Status](https://circleci.com/gh/CivilServiceUSA/nginx-error-pages/tree/master.svg?style=shield)](https://circleci.com/gh/CivilServiceUSA/nginx-error-pages/tree/master)  [![Known Vulnerabilities] (https://snyk.io/test/github/CivilServiceUSA/nginx-error-pages/badge.svg)](https://snyk.io/test/github/CivilServiceUSA/nginx-error-pages)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/CivilServiceUSA/nginx-error-pages/master/LICENSE)  [![GitHub contributors](https://img.shields.io/github/contributors/CivilServiceUSA/nginx-error-pages.svg)](https://github.com/CivilServiceUSA/nginx-error-pages/graphs/contributors)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://raw.githubusercontent.com/CivilServiceUSA/nginx-error-pages/master/LICENSE)  [![GitHub contributors](https://img.shields.io/github/contributors/CivilServiceUSA/nginx-error-pages.svg)](https://github.com/CivilServiceUSA/nginx-error-pages/graphs/contributors)
 
 __Civil Services__ is a collection of tools that make it possible for citizens to be apart of what is happening in their Local, State & Federal Governments.
 
