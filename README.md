@@ -11,11 +11,14 @@ __Civil Services__ is a collection of tools that make it possible for citizens t
 Demos:
 ---
 
+* [Error 400](https://cdn.civil.services/nginx-error-pages/error_400.html)
+* [Error 401](https://cdn.civil.services/nginx-error-pages/error_401.html)
 * [Error 403](https://cdn.civil.services/nginx-error-pages/error_403.html)
 * [Error 404](https://cdn.civil.services/nginx-error-pages/error_404.html)
 * [Error 500](https://cdn.civil.services/nginx-error-pages/error_500.html)
 * [Error 503](https://cdn.civil.services/nginx-error-pages/error_503.html)
 * [Error 504](https://cdn.civil.services/nginx-error-pages/error_504.html)
+
 
 Installation ( Nginx ):
 ---
@@ -37,12 +40,22 @@ sudo nano /etc/nginx/snippets/error-pages.conf
 and paste in the following 
 
 ```
+error_page 400 /error_400.html;
+error_page 401 /error_401.html;
 error_page 403 /error_403.html;
 error_page 404 /error_404.html;
 error_page 500 /error_500.html;
 error_page 503 /error_503.html;
 error_page 504 /error_504.html;
 
+location = /error_400.html {
+    root /usr/share/nginx/html/error-pages;
+    internal;
+}
+location = /error_401.html {
+    root /usr/share/nginx/html/error-pages;
+    internal;
+}
 location = /error_403.html {
     root /usr/share/nginx/html/error-pages;
     internal;
